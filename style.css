@@ -33,16 +33,25 @@ section {
     text-align: center;
 }
 
-h1, h2 {
+h1 {
     background-color: #ebebeb;
     font-family: 'Arial', 'Helvetica Neue', Helvitica, sans-serif;
     font-size: 18px;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    
 }
 
 p {
     background-color: #ebebeb;
     font-family: 'Arial', 'Helvetica Neue', Helvitica, sans-serif;
     font-size: 18px;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px auto 0;
 }
 
 aside {
@@ -71,5 +80,7 @@ article {
     font-family: 'Arial', 'Helvetica Neue', Helvitica, sans-serif;
     font-size: 18px;
     width: 450px;
-    float: right 50px;
+    position: absolute;
+    padding-top: 20px;
+    left: 30px;
 }
